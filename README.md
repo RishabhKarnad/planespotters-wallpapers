@@ -23,4 +23,4 @@ python main.py
 
 ## Running the script as a systemd service
 
-Use the `example-service` file as a template for a systemd service.
+Use the `example.service` file as a template for a systemd service.
