@@ -1,0 +1,10 @@
+[Unit]
+Description=Fetch wallpapers from planespotters.net
+
+[Service]
+ExecStart=/usr/bin/python3 /path/to/main.py
+Restart=always
+RestartSec=86400s
+
+[Install]
+WantedBy=multi-user.target
